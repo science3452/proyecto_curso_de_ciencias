@@ -1,0 +1,121 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #4c9baf;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: crimson;
+}
+
+body{text-align: center;}
+
+li{
+    background-color: #eaf0f1;
+    height: auto;
+    width: auto;}
+h2{
+    color: rgb(10, 10, 10);
+}
+h3{
+    background-color:rgb(5, 5, 5);
+    color: #ffffff;
+
+}
+img 
+{
+
+ display: block; 
+ width: 40%;
+ margin: auto;
+} 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+ display: inline;
+ margin-right: 10px;
+}
+p{
+    background-color: #ffffff;
+    border: #4b5cc2;
+    border-radius: 15px;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto 20px;
+    text-align: left;
+}
+div{
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto 20px;
+    text-align: left;
+}
+h1{
+    text-align:center;
+}
+ul{
+    text-align: center;
+}
+mark{
+    text-align: center;
+}
+img.inico{
+    width: 550px; height:500px ;
+}
+a {
+    background-color: #465cd8; /* Color de fondo */
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; /* Tamaño del texto */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; /* Bordes redondeados */
+    transition-duration: 0.4s; /* Duración de la transición */
+}
+
+a:hover {
+    background-color: white; /* Color de fondo al pasar el mouse */
+    color: #465cd8;
+    border: 2px solid #4c9baf ; /* Borde al pasar el mouse */
+}
+input{
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Margen externo */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados *
+    box-sizing: border-box; /* Para incluir el padding y el borde en el ancho total */
+    font-size: 16px; /* Tamaño del texto */
+    width: 100%; /* Ancho completo */
+    transition: border-color 0.3s ease-in-out; /* Transición suave del color del borde */
+}
+input:focus{
+    border-color: #4c9baf; /* Color del borde al enfocar */
+    outline: none; /* Elimina el contorno predeterminado */
+}
+button{
+    background-color: #4c9baf; /* Color de fondo */
+    border: none;
+    color: white;
+    padding: 15px 32px; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; /* Tamaño del texto */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; /* Bordes redondeados */
+    transition-duration: 0.4s; /* Duración de la transición */
+}
+button:hover{
+    background-color: white; /* Color de fondo al pasar el mouse */
+    color: black;
+    border: 2px solid #4c9baf ; /* Borde al pasar el mouse */
+}
