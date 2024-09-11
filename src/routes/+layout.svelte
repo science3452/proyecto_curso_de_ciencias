@@ -5,6 +5,3 @@
 
 {@render children()}
 
-<h1>
-   Esto es un pie de pagina
-</h1>

@@ -12,6 +12,6 @@
         <br>
         <a href="/reinos">Reinos de la Naturaleza.</a> | 
         <a href="celula">La Célula.</a> | 
-        <a href="/reinos">Reinos de la Naturaleza.</a>
+        <a href="/materia">Estados de la Materia.</a>
     </center>
 </div>
