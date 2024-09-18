@@ -15,5 +15,5 @@
             <p>Estado Gaseoso.</p>
         </ul>
         
-        <button><a href="/">Volver</a></button>
+        <center><a href="/">Volver</a></center>
 </div>
