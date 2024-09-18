@@ -1,3 +1,8 @@
+<script>
+    const {data} = $props();
+
+</script>
+
 <div>
     <h1>SCIENCE</h1>
 
