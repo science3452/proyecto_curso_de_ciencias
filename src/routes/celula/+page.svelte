@@ -10,4 +10,10 @@
     <p>El descubrimiento de la célula se considera el paso fundacional del estudio moderno de la vida (biología), dado que permitió comprender la enorme complejidad del cuerpo de los seres vivos y permitió el surgimiento de numerosas ciencias y disciplinas posteriores.</p>
     <br>
     <nav><a href="https://concepto.de/celula-2/">Más aquí</a></nav>
+    <br>
+    <br>
+    <h2>Hay dos tipos de celula</h2>
+    <br>
+    <a href="eucariota">celula eucariota</a>
+    <a href="procariota">celula procariota</a>
     </div>

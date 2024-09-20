@@ -10,11 +10,11 @@
         <h1>Los Estados de la Materia son:</h1>
         <br>
         <br>
-        <ul>
-        <a href="/gaseoso.svelte">estado gaseoso</a> 
-        <a href="liquido.svelte">estado liquido</a> 
+        <center>
+        <a href="/page.gaseoso.svelte">estado gaseoso</a> 
+        <a href="liquido">estado liquido</a> 
         <a href="solido.svelte">estado solido</a>  
-        </ul>
+        </center>
         <br>
         <br>
         <center><a href="/">Volver</a></center>
