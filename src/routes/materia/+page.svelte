@@ -8,12 +8,14 @@
         <p>Los estados de la materia más conocidos son tres: el sólido, el líquido y el gaseoso, aunque también existen otros menos frecuentes como el plasmático y otras formas que no se producen en nuestro entorno naturalmente, como los condensados fermiónicos. Cada uno de estos estados posee características físicas distintas (volumen, fluidez, resistencia, entre otras).</p>
 
         <h1>Los Estados de la Materia son:</h1>
-
+        <br>
+        <br>
         <ul>
-            <p>Estado Sólido.</p>
-            <p>Estado Líquido.</p>
-            <p>Estado Gaseoso.</p>
+        <a href="/gaseoso.svelte">estado gaseoso</a> 
+        <a href="liquido.svelte">estado liquido</a> 
+        <a href="solido.svelte">estado solido</a>  
         </ul>
-        
+        <br>
+        <br>
         <center><a href="/">Volver</a></center>
 </div>
