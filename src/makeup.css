@@ -119,3 +119,17 @@ button:hover{
     color: black;
     border: 2px solid #4c9baf ; /* Borde al pasar el mouse */
 }
+h3{
+    color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+.card, .news, table, div {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 0 auto 20px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
