@@ -1,36 +1,36 @@
-import { sqliteTable, AnySQLiteColumn, text, integer, numeric } from "drizzle-orm/sqlite-core"
+import { sqliteTable, AnySQLiteColumn, integer, text, numeric, foreignKey } from "drizzle-orm/sqlite-core"
   import { sql } from "drizzle-orm"
 
-export const users = sqliteTable("users", {
-	name: text("name"),
+export const estudiantes = sqliteTable("estudiantes", {
 	id: integer("id").primaryKey(),
+	user: text("user"),
+	name: text("name"),
 	date: numeric("date"),
 	country: text("country"),
 	state: text("state"),
 	school: text("school"),
-	password: text("password").notNull(),
 	gender: text("gender"),
-	user: text("user").notNull(),
-	mail: text("mail"),
+	email: text("email"),
+	password: text("password"),
 });
 
-export const theme = sqliteTable("theme", {
-	idTema: integer("id_tema"),
-	title: text("title"),
-	description: text("description"),
-	idPregunta: integer("id_pregunta"),
+export const temas = sqliteTable("temas", {
+	idTema: integer("id_tema").primaryKey(),
+	titulo: text("titulo"),
+	descripcion: text("descripcion"),
+	idPreguntas: integer("id_preguntas").references(() => preguntas.id),
 });
 
 export const preguntas = sqliteTable("preguntas", {
 	id: integer("id").primaryKey(),
-	options: text("options"),
-	quest: text("quest"),
-	answer: text("answer"),
+	opciones: text("opciones"),
+	pregunta: text("pregunta"),
+	respuesta: text("respuesta"),
 });
 
-export const progress = sqliteTable("progress", {
-	id: integer("id"),
-	idUser: integer("id_user"),
-	idTheme: integer("id_theme").primaryKey(),
-	disponibilidad: text("disponibilidad"),
+export const progresos = sqliteTable("progresos", {
+	id: integer("id").primaryKey(),
+	idEstudiante: integer("id_estudiante").references(() => estudiantes.id),
+	idTema: integer("id_tema").references(() => temas.idTema),
+	bloqueo: text("bloqueo"),
 });

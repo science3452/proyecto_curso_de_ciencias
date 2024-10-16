@@ -1,5 +1,5 @@
 <div>  
-    <form action="establecer.html"> 
+    <form action="/password"> 
     <center>
        <h1>Ingresa tus Datos</h1>
        <h4>Ingresa tu Nombre y Apellido</h4>
@@ -27,7 +27,7 @@
     </center>
     <p>ya tienes cuenta?</p>
     <a href="/iniciar">iniciar sesión</a>
-    <a href="/password">sig</a>
+    <button>siguiente</button>
     
     </form>
 </div>

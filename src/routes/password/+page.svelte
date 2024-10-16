@@ -1,4 +1,4 @@
-<form action="menu.html"></form>
+<form action="/home"></form>
 <h1>Establece una Contraseña</h1>
 <div>
     <center>
@@ -12,6 +12,6 @@
     <br>
     <br>
     <br>
-    <a href="/home">empezar</a>
+    <button>iniciar</button>
     <a href="/registrar">atrás</a>
 </div>

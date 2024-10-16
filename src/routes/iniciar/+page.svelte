@@ -1,4 +1,4 @@
-<form action="menu.html"> 
+<form action="/home"> 
     <h1>Inicia Sesión con tu Correo Electrónico</h1>
     <div>
         <h4>Ingresa tu Correo</h4>
@@ -16,7 +16,7 @@
         <br>
         <br>
         <center>
-            <a href="/home">in</a>
+            <button>ingresar</button>
             <br>
             <h4>no tienes cuenta?</h4>
             <a href="/registrar">Registrarme</a>
