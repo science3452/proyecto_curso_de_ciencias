@@ -4,22 +4,19 @@
 </script>
 
 <div>
-    <h1>SCIENCE</h1>
+    <h1>¡¡HOLA!!</h1>
     <center>
-        <h2>Hola!!</h2>
+        <h2>BIENVENIDO A SCIENCE</h2>
     </center>
     <br>
-    <p>Somos Science, una página destinada a realizar cursos cortos de temas de ciencias naturales para reforzartu conocimiento en el Area.</p>
+    <p>Como página estamos destinados a ayudarte a reforzar tu conocimientos en diversos temas del area de ciencias naturales.</p>
     <br>
     <br>
-    <p>debes identificarte para acceder a la aplicación</p>
+    <p>Accede registrandote o iniciando sesión</p>
     <center>
         <br>
         <br>
         <a href="/registrar">registrarme</a>
         <a href="/iniciar">iniciar sesión</a>
     </center>
-    <a href="/reinos">ver</a>
-
-    
 </div>
